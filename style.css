@@ -4,6 +4,20 @@
 	padding: 0;
 }
 
+#top {
+	font-size: 13px;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+#top li{
+	vertical-align: middle;
+}
+
+#profilepic {
+	border-radius: 50%;
+}
 
 #search {
 	margin-top: 15px;
@@ -24,6 +38,10 @@
 	margin-left: 10px;
 }
 
+.arial {
+	font-family: arial, sans-serif;
+}
+
 .submit {
 	padding: 5px 20px;
 	margin-top: 25px;
@@ -37,34 +55,28 @@
 	display: inline;
 }
 
-.top {
+.topmargin {
 	margin-top: 13%;
 }
 
-.bottom {
+.inlineblock {
 	display: inline-block;
 }
 
 .bottom li {
-	display: inline-block;
-	padding: 7px;
-	font-family: arial, sans-serif;
+
 	font-size: 15px;
 	color: #5f6368;
+	margin: 5px;
 }
 
-#textleft {
-	text-align: left;
+.leftside {
 	padding-left: 20px;
-	margin: 5px;
 }
 
-#textright {
-	text-align: center;
+.rightside {
 	padding-right: 20px;
-	position: relative;
 	float: right;
-	margin: 5px;
 }
 
 #footer {
@@ -76,6 +88,11 @@
 	border: 1px lightgray solid;
 }
 
-.country {
+.border-bottom {
 	border-bottom: 1px lightgray solid;
+}
+
+li {
+	display: inline-block;
+	padding: 7px;
 }
